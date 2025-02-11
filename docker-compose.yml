@@ -4,8 +4,6 @@ services:
     backend:
         image: ghcr.io/rkorom/backendforfrontend:latest
         restart: 'always'
-        depends_on:
-            - database
         ports:
             - '8000:8000'
         labels:
@@ -21,7 +19,3 @@ services:
             WATCHTOWER_CLEANUP: 'true'
             WATCHTOWER_POLL_INTERVAL: '300' # seconds
         command: --label-enable
-volumes:
-    mongodb: ~
-    minio_data:
-        driver: local
