@@ -14,14 +14,12 @@ services:
             - '8005:8005'
         labels:
             - 'com.centurylinklabs.watchtower.enable=true'
-
     watchtower:
         container_name: kr-watchtower
         image: containrrr/watchtower:latest
         restart: 'always'
         volumes:
             - /var/run/docker.sock:/var/run/docker.sock
-            - ~/.docker/config.json:/config.json:ro
         environment:
             WATCHTOWER_CLEANUP: 'true'
             WATCHTOWER_POLL_INTERVAL: '300' # seconds
