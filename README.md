@@ -10,3 +10,9 @@ You can run the backend with the following command:
 ```bash
 docker-compose up -d
 ```
+
+### API-s
+
+| Project   | Port | Docs                                  |
+| --------- | ---- | ------------------------------------- |
+| PizzaShop | 8001 | [Swagger](http://localhost:8001/docs) |
