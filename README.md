@@ -2,6 +2,26 @@
 
 - React 18.3.12 with TypeScript
 
+## Commands
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run the project
+
+```bash
+npm start
+```
+
+### Run the tests
+
+```bash
+npm test
+```
+
 ## Backend
 
 The docker-compose file is configured to run the backend in a container.
