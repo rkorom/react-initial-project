@@ -35,5 +35,5 @@ docker-compose up -d
 
 | Project   | Port | Docs                                  |
 | --------- | ---- | ------------------------------------- |
-| Exam      | 3000 | -                                     |
+| Exam      | 3000 | [Swagger](http://localhost:3000/docs) |
 | PizzaShop | 8001 | [Swagger](http://localhost:8001/docs) |
