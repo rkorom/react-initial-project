@@ -1,7 +1,7 @@
 {
   "editor.formatOnSave": true,
   "files.autoSave": "afterDelay",
-  "files.autoSaveDelay": 5000,
+  "files.autoSaveDelay": 3000,
   "editor.mouseWheelZoom": true,
   
   "[typescriptreact]": {
