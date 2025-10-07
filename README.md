@@ -7,13 +7,13 @@
 
 ## Docker parancsok
 
-### Konténer indítása
+### Konténerek indítása
 
 ```bash
 docker-compose up -d
 ```
 
-### Konténer leállítása
+### Konténerek leállítása
 
 ```bash
 docker-compose down
