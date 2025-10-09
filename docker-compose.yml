@@ -3,7 +3,7 @@ version: '3.7'
 services:
     backend:
         container_name: kr-backend
-        image: ghcr.io/rkorom/backendforfrontend:latest
+        image: ghcr.io/rkorom/sampleapis:latest
         restart: 'always'
         ports:
             - '3000:3000'
