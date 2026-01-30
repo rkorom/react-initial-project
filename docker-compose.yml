@@ -10,7 +10,7 @@ services:
       - "8002:8002" # autoker
       - "8003:8003" # secleak-backend
       - "8004:8004" # secleak-frontend
-      - "8005:8005"
+      - "8005:8005" # lol champions
     labels:
       - "com.centurylinklabs.watchtower.enable=true"
   watchtower:
